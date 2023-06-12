@@ -1,0 +1,17 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+}
+.filter input {
+  width: 200px;
+  margin-top: 10px;
+  border: 1px solid rgba(110, 109, 109, 0.815);
+  border-radius: 25px;
+  padding: 4px;
+
+  outline: none;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+}

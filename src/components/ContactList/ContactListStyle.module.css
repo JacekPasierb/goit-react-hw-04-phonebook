@@ -1,0 +1,23 @@
+.contactItem {
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contactItem button {
+  width: 60px;
+
+  padding: 3px;
+
+  background-color: rgba(111, 82, 139, 0.712);
+  border: 0;
+  border-radius: 40px;
+font-size: 10px;
+
+  transition: 500ms linear;
+}
+.contactItem button:hover {
+  background-color: wheat;
+  cursor: pointer;
+}
+

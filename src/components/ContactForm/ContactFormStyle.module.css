@@ -1,0 +1,35 @@
+.contactForm {
+  width: 300px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+ 
+}
+.contactForm input {
+  width: 200px;
+  margin-top: 10px;
+  border: 1px solid rgba(110, 109, 109, 0.815);
+  border-radius: 25px;
+  padding: 4px;
+
+  outline: none;
+}
+.contactForm label {
+  margin-top: 10px;
+   display: flex;
+  flex-direction: column;
+}
+.contactForm button {
+  width: 100px;
+  margin-top: 10px;
+  padding: 6px;
+  background-color: rgba(111, 82, 139, 0.712);
+  border: 0;
+  border-radius: 40px;
+
+  transition: 500ms linear;
+}
+.contactForm button:hover {
+  background-color: wheat;
+  cursor: pointer;
+}
